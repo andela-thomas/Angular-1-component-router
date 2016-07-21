@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="scotch">
+
+<head>
+  <base href="/">
+  <title>Angular component router</title>
+  <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="lib/angular/angular.min.js"></script>
+  <script src="lib/angular-component-router/angular_1_router.js"></script>
+  <!-- components -->
+  <script src="js/app.js"></script>
+  <script src="js/components/appComponent.js"></script>
+  <script src="js/components/homeComponent.js"></script>
+  <script src="js/components/movieListComponent.js"></script>
+  <script src="js/components/movieDetailsComponent.js"></script>
+</head>
+
+<body>
+  <app-router></app-router>
+  <div class="container">
+    <jumbo-tron></jumbo-tron>
+    <movie-list></movie-list>
+    <movie-details></movie-details>
+  </div>
+</body>
+
+</html>

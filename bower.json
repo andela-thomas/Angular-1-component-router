@@ -1,0 +1,11 @@
+{
+  "name": "angular1-component-router",
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-component-router": "^0.2.1",
+    "bootstrap": "^3.3.6"
+  }
+}
